@@ -270,7 +270,10 @@ nav a > img {
 /* Catalog-Section */
 
 .catalog-section {
+  max-width: 120rem;
+  margin: 0 auto;
   margin-top: 9.5rem;
+  padding: 0 2rem;
 }
 
 .catalog-flex {
@@ -287,10 +290,6 @@ nav a > img {
   border-radius: 1.5rem;
   position: relative;
   padding: 2.5rem;
-}
-
-.card-pd {
-  padding: 0 2.5rem;
 }
 
 .catalog-item .catalog-card h3 {
@@ -452,6 +451,15 @@ nav a > img {
   .catalog-flex {
     flex-direction: column;
     justify-content: center;
+  }
+
+  .card-pd {
+    padding: 0 2.5rem;
+  }
+
+  .catalog-section {
+    max-width: 100%;
+    padding: 0rem;
   }
 
   .catalog-item {
